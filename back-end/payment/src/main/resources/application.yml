@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: payment-service
+  data:
+    mongodb:
+      uri: mongodb+srv://vietnhat0351:1234@cluster0.16gi4od.mongodb.net/e-commerce-payment-service?retryWrites=true&w=majority&appName=Cluster0
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        spring.json.type.mapping: paymentSuccessNotification:com.example.payment.kafka.PaymentSuccessNotification
+server:
+  port: 8085
+springdoc:
+  swagger-ui:
+    oauth:
+      client-id: e-commerce-backend
+      client-secret: zneg8gw1cxIzcGt3EIS043cmTYdikYIg
+    path: /api/v2/payment/api-docs
+  api-docs:
+    path: /api/v2/payment/v3/api-docs
+
+feign:
+  client:
+    order-service:
+      url: http://localhost:9191/api/v1/orders
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/discovery/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+payment:
+  momo:
+    partner-code:
+    access-key:
+    secret-key:
+    redirect-url: https://phamvietnhat.zapto.org/
+    notify-url: https://phamvietnhat.zapto.org/api/v1/payment/momo-payment-notification

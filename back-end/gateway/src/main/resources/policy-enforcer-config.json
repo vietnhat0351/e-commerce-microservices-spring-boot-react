@@ -1,0 +1,70 @@
+{
+  "realm": "Pham-Viet-Nhat",
+  "auth-server-url": "https://phamvietnhat.zapto.org:8443",
+  "resource": "e-commerce-backend",
+  "credentials": {
+    "secret": "zneg8gw1cxIzcGt3EIS043cmTYdikYIg"
+  },
+  "paths": [
+    {
+      "path": "/api/v2/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/payment/momo-payment-notification",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/auth/login",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/all",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/search",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/findById/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/deleteByIdIn",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/ws/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/allByCategory",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/getFilterByCategory",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/allByIdIn/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/products/findById/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/orders/get-customer-from-order/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/users/findUserById/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/api/v1/s3/*",
+      "enforcement-mode": "DISABLED"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: notification-service
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+          starttls:
+            enable: true
+            required: true
+        auth: true
+        starttls:
+          enabled: true
+        connection-timeout: 5000
+        timeout: 3000
+        write-timeout: 5000
+  kafka:
+    bootstrap-servers: localhost:9092 #,kafka2:9093,kafka3:9094
+    consumer:
+      group-id: notificationGroup
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: '*'
+        spring.json.type.mapping: orderConfirmation:com.example.notification.order.OrderConfirmation, paymentSuccessNotification:com.example.notification.payment.PaymentSuccessNotification
+server:
+  port: 8086
+springdoc:
+  swagger-ui:
+    oauth:
+      client-id: e-commerce-backend
+      client-secret: zneg8gw1cxIzcGt3EIS043cmTYdikYIg
+    path: /api/v2/notifications/api-docs
+  api-docs:
+    path: /api/v2/notifications/v3/api-docs
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/discovery/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.value}

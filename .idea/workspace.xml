@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae0d95fc-cd69-4493-bef8-7e3ae641aefd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/policy-enforcer-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/policy-enforcer-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/kafka/OrderConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/kafka/OrderConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Dockerfile" />
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.10/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2hN4JdJhVwHdbLTMPWhOwuLJnav" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DiscoveryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IntelliJ Project/e-commerce-microservices/product/src/main/java/com/example/product&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;caa315330a7ef12795ba12bafdd2b007&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.product.dtos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ Project\e-commerce-microservices\product\src\main\java\com\example\product" />
+      <recent name="D:\IntelliJ Project\e-commerce-microservices\order\src\main\java\com\example\order\kafka" />
+      <recent name="D:\IntelliJ Project\e-commerce-microservices\notification\src\main\java\com\example\notification\order" />
+      <recent name="D:\IntelliJ Project\e-commerce-microservices\notification\src\main\java\com\example\notification\payment" />
+      <recent name="D:\IntelliJ Project\e-commerce-microservices\user" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.payment" />
+      <recent name="com.example.storage" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.product.config" />
+      <recent name="com.example.gateway" />
+      <recent name="com.example.gateway.config" />
+      <recent name="com.example.order.config" />
+      <recent name="com.example.notification.kafka" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="ProductApplication | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ProductApplication.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.payment.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.ProductApplication | #1" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.ProductApplication | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae0d95fc-cd69-4493-bef8-7e3ae641aefd" name="Changes" comment="" />
+      <created>1717421132266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717421132266</updated>
+      <workItem from="1717421133433" duration="197000" />
+      <workItem from="1717421338133" duration="5980000" />
+      <workItem from="1717484599571" duration="385000" />
+      <workItem from="1717485033527" duration="7956000" />
+      <workItem from="1717506314808" duration="7989000" />
+      <workItem from="1717558680749" duration="3703000" />
+      <workItem from="1717568103524" duration="801000" />
+      <workItem from="1717568924540" duration="15902000" />
+      <workItem from="1717592329993" duration="3185000" />
+      <workItem from="1717667952568" duration="461000" />
+      <workItem from="1717684894750" duration="1211000" />
+      <workItem from="1717729386246" duration="1152000" />
+      <workItem from="1717833656857" duration="11000" />
+      <workItem from="1718098225309" duration="1343000" />
+      <workItem from="1718113075663" duration="2408000" />
+      <workItem from="1718173235775" duration="5123000" />
+      <workItem from="1718181340037" duration="7113000" />
+      <workItem from="1718196320756" duration="1811000" />
+      <workItem from="1718246512155" duration="11626000" />
+      <workItem from="1718282984578" duration="2619000" />
+      <workItem from="1718344278343" duration="4674000" />
+      <workItem from="1718420786548" duration="7676000" />
+      <workItem from="1718456312999" duration="1876000" />
+      <workItem from="1718507463648" duration="8176000" />
+      <workItem from="1718587994801" duration="19156000" />
+      <workItem from="1718631572053" duration="5233000" />
+      <workItem from="1718675996332" duration="15961000" />
+      <workItem from="1718717806943" duration="2380000" />
+      <workItem from="1718764652191" duration="8073000" />
+      <workItem from="1718828194708" duration="1973000" />
+      <workItem from="1718859403436" duration="1114000" />
+      <workItem from="1718868954162" duration="53000" />
+      <workItem from="1718869180103" duration="5844000" />
+      <workItem from="1718891095385" duration="3104000" />
+      <workItem from="1718938789937" duration="1248000" />
+      <workItem from="1719037879591" duration="5778000" />
+      <workItem from="1719129506206" duration="3855000" />
+      <workItem from="1719199034096" duration="8258000" />
+      <workItem from="1719220481780" duration="4246000" />
+      <workItem from="1719269566678" duration="1114000" />
+      <workItem from="1719287287105" duration="8598000" />
+      <workItem from="1719372113229" duration="9880000" />
+      <workItem from="1719453037660" duration="82000" />
+      <workItem from="1719453129619" duration="7229000" />
+      <workItem from="1719468294131" duration="763000" />
+      <workItem from="1719542640816" duration="3262000" />
+      <workItem from="1719560854093" duration="3034000" />
+      <workItem from="1719606622778" duration="641000" />
+      <workItem from="1719626821620" duration="8316000" />
+      <workItem from="1719728067312" duration="2776000" />
+      <workItem from="1719923448297" duration="3517000" />
+      <workItem from="1719969754596" duration="5097000" />
+      <workItem from="1719984400558" duration="2926000" />
+      <workItem from="1719987349631" duration="152000" />
+      <workItem from="1719987730346" duration="11521000" />
+      <workItem from="1720009719395" duration="2160000" />
+      <workItem from="1720060920787" duration="3244000" />
+      <workItem from="1720073843777" duration="2065000" />
+      <workItem from="1720095807255" duration="5536000" />
+      <workItem from="1720127728845" duration="194000" />
+      <workItem from="1720127936861" duration="5090000" />
+      <workItem from="1720136146723" duration="18980000" />
+      <workItem from="1720184544428" duration="1190000" />
+      <workItem from="1720229603166" duration="6090000" />
+      <workItem from="1720242459970" duration="3163000" />
+      <workItem from="1720245792156" duration="7434000" />
+      <workItem from="1720280255353" duration="1855000" />
+      <workItem from="1720322326430" duration="18453000" />
+      <workItem from="1720355275368" duration="11644000" />
+      <workItem from="1720404669750" duration="593000" />
+      <workItem from="1720405282187" duration="4193000" />
+      <workItem from="1720419967750" duration="12263000" />
+      <workItem from="1720442343920" duration="5058000" />
+      <workItem from="1720486110595" duration="5618000" />
+      <workItem from="1720505878760" duration="8097000" />
+      <workItem from="1720571659474" duration="19883000" />
+      <workItem from="1720613795188" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

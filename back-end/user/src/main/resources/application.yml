@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb+srv://vietnhat0351:1234@cluster0.16gi4od.mongodb.net/e-commerce-user-service?retryWrites=true&w=majority&appName=Cluster0
+server:
+  port: 8082
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/discovery/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+
+springdoc:
+  swagger-ui:
+    oauth:
+      client-id: e-commerce-backend
+      client-secret: zneg8gw1cxIzcGt3EIS043cmTYdikYIg
+    path: /api/v2/users/api-docs
+  api-docs:
+    path: /api/v2/users/v3/api-docs
+
+keycloak:
+  auth-server-url: https://phamvietnhat.zapto.org:8443/
+  realm: Pham-Viet-Nhat
+  client-id: admin-cli
+  grant-type: password
+  username: vietnhat0351@gmail.com
+  password: 123123
+
