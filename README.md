@@ -9,3 +9,5 @@
   * User service: https://phamvietnhat.zapto.org/api/v2/users/swagger-ui/index.html
 * Eureka: https://phamvietnhat.zapto.org/discovery/
 * kafka dashboard: https://phamvietnhat.zapto.org/kafka/
+## Sơ Đồ Hệ Thống
+![micro-services (1)-global-architecture drawio](https://github.com/user-attachments/assets/a5f4c40b-7a22-4cff-8362-65549c15fcb9)
